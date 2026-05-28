@@ -18,7 +18,6 @@ _(Optional: You can add an image link here once you take a screenshot of your ap
 ## 🚀 Live Demo
 
 👉 [Click here to view the live project](https://harshgautam0.github.io/Weather_Today/)
-_(Note: Replace this placeholder link with your actual GitHub Pages URL!)_
 
 ## 🛠️ Tech Stack
 
