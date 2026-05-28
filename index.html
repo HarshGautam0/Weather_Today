@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter your city" spellcheck="false" />
+        <button><img src="images/search.png" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <!-- Wrap your sunrise/sunset tags inside this new wrapper div -->
+        <div class="sun-times">
+          <p class="sunrise"><img src="images/sunrise.png" />Sunrise: --:--</p>
+          <p class="sunset"><img src="images/sunset.png" />Sunset: --:--</p>
+        </div>
+
+        <img src="images/rain.png" class="weather_icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New york</h2>
+        <h3 class="temp_feel">Feel's Like 22°C</h3>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+        <div class="col1">
+          <!-- Added class="wind-img" to target it in JavaScript -->
+          <img
+            src="images/air.svg"
+            class="wind-img"
+            style="transition: transform 0.6s ease"
+          />
+          <div>
+            <p>Wind Direction:</p>
+            <p class="wind-arrow"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
