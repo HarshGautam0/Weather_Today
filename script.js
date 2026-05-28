@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = "267cf8195cd9097539634450a3813603";
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 function getWindDirection(deg) {
